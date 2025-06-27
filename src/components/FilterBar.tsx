@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Input } from '@/components/ui/input'
 import Link from 'next/link'
-import Image from 'next/image'
 
 const TMDB_API_KEY = process.env.NEXT_PUBLIC_TMDB_API_KEY
 
@@ -95,7 +94,7 @@ export default function FilterBar({
                 href={`/movies/${movie.id}`}
                 className="flex items-center gap-2 px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 transition"
               >
-                <Image
+                <img
                   src={
                     movie.poster_path
                       ? `https://image.tmdb.org/t/p/w92${movie.poster_path}`

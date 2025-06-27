@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { Card, CardContent } from '@/components/ui/card'
-import Image from 'next/image'
+
 
 const TMDB_API_KEY = process.env.NEXT_PUBLIC_TMDB_API_KEY
 
@@ -107,7 +107,7 @@ export default function MovieList({
         <Link key={movie.id} href={`/movies/${movie.id}`}>
           <Card className="hover:scale-105 transition-transform">
             <CardContent className="p-0">
-              <Image
+              <img
                 src={
                   movie.poster_path
                     ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
