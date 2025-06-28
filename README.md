@@ -1,5 +1,5 @@
 ﻿# Movie-Search
-Link for Demo:  https://movie-search-gray-xi.vercel.app/movies
+Link for Live Demo:  https://movie-search-gray-xi.vercel.app/movies
 
 ---
 ## Features
@@ -12,8 +12,6 @@ Link for Demo:  https://movie-search-gray-xi.vercel.app/movies
 - Built with Next.js App Router + TypeScript
 - Framer Motion animations
 - Redux Toolkit for global state management
-
----
 
 ---
 
@@ -55,4 +53,8 @@ npm run dev
 ```
 
 Now open http://localhost:3000 in your browser to see the app live.
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to fork the repo and submit a PR.
 
