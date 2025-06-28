@@ -38,18 +38,21 @@ git clone https://github.com/Deepak-kumar4/Movie-Search.git
 cd Movie-Search
 ```
 2️⃣ Install dependencies
-
+```bash
 npm install
+```
 
 3️⃣ Set up environment variables
 
 Create a .env.local file in the root folder and add your TMDB API key:
-
+```bash
 NEXT_PUBLIC_OMDB_API_KEY=your_api_key_here
+```
 
 4️⃣ Run the development server
-
+```bash
 npm run dev
+```
 
 Now open http://localhost:3000 in your browser to see the app live.
 
